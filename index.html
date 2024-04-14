@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-left: 40px;
+           
+        }
+        button{
+            background-color: rgb(237, 67, 67);
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        textarea{
+            font-size: 17px;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <h2>Print odds 1-20
+        </h2>
+        <button onclick="oddNum()">Show</button>
+        <textarea name="text" id="text1" cols="40" rows="20"></textarea>
+    </div>
+    <div class="second">
+        <h2>Decreasing Multiples of 3
+        </h2>
+        <button onclick="decreaseNum()">Show</button>
+        <textarea name="text" id="text2" cols="40" rows="20"></textarea>
+
+    </div>
+    
+    <div class="third">
+        <h2>Print the sequence
+        </h2>
+        <button onclick="printSequence()">Show</button>
+        <textarea name="text" id="text3" cols="40" rows="20"></textarea>
+
+    </div>
+
+    <div class="fourth">
+        <h2>Sigma</h2>
+        <button onclick="sigma()">Show</button>
+        <textarea name="text" id="text4" cols="40" rows="20"></textarea>
+
+    </div>
+    <div class="fifth">
+        <h2>Factorial</h2>
+        <button onclick="factorial()">Show</button>
+        <textarea name="text" id="text5" cols="40" rows="20"></textarea>
+
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
